@@ -9,7 +9,7 @@ if appIsRunning("Sublime Text") then
 		tell process "Sublime Text" to click menu item "New File" in menu "File" of menu bar 1
 	end tell
 	
-	-- Activate Sublime to focus on the new window
+-- Activate Sublime to focus on the new window
 	tell application "Sublime Text" to activate
 else
 	tell application "Sublime Text" to activate
